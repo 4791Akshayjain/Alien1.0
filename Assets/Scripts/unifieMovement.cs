@@ -21,7 +21,7 @@ public class unifiedMovementScript : MonoBehaviour
 
     void Start()
     {
-        characterController = GetComponent<CharacterController>();
+        characterController = GetComponent<CharacterController>(); 
         
         // Automatically find the camera attached to the player!
         playerCamera = GetComponentInChildren<Camera>().transform;
